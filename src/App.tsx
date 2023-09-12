@@ -1,6 +1,17 @@
+import { Button } from "./components/ui/button";
+
 export function App() {
 
   return (
-    <h1>Hello World</h1>
+      <div>
+        <div >
+            <h1>upload.id</h1>
+
+            <div>
+              <span>Desenvolvido com 💙 na NLW</span>
+              <Button>GitHub</Button>
+            </div>
+        </div>
+      </div>
   )
 }
